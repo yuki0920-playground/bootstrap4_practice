@@ -73,7 +73,46 @@
 <main>
   <!--メインビジュアル-->
   <div class="py=4">
-    
+    <div class="container">
+      <!--カルーセル外枠-->
+      <div id="main_visual" class="carousel slide" data-ride="carousel">
+        <!--インジケーター-->
+        <ol class="carousel-indicators">
+          <li data-target="#main_visual" data-slide-to="0" class="active"></li>
+          <li data-target="#main_visual" data-slide-to="1"></li>
+          <li data-target="#main_visual" data-slide-to="2"></li>
+        </ol>
+        <!--/インジケーター-->
+        <!--カルーセル内枠-->
+        <div class="carousel-inner">
+          <!--スライド01-->
+          <div class="carousel-item active">
+            1枚目のスライド画像とキャプション配置
+          </div>
+          <!--/スライド01-->
+          <!--スライド02-->
+          <div class="carousel-item">
+            2枚目のスライド画像とキャプション配置
+          </div>
+          <!--/スライド02-->
+          <!--スライド03-->
+          <div class="carousel-item">
+            3枚目のスライド画像とキャプション配置
+          </div>
+          <!--/スライド03-->
+        </div>
+        <!--/カルーセル内枠-->
+        <!--コントローラー-->
+        <a class="carousel-control-prev" href="#main_visual" role="button" data-slide="prev">
+          前に戻るコントローラー「<」
+        </a>
+        <a class="carousel-control-next" href="#main_visual" role="button" data-slide="next">
+          次進むコントローラー「>」
+        </a>
+        <!--コントローラー-->
+      </div>
+      <!--/カルーセル-->
+    </div>
   </div>
   <!--/メインビジュアル-->
   <!--コンテンツ01-->
